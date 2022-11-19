@@ -13,3 +13,11 @@ git push -u origin main
 git remote add origin https://github.com/kgalarza95/comandos_git.git
 git branch -M main
 git push -u origin main
+
+importancia de -u y git push -u origin main  origin nombre de rama de github, master rama local
+
+Cuando tienes mas de un repositorio remoto puedes utilizar el flag -u para configurar uno de ellos como el principal.
+
+Supongamos que tienes un repo en BitBucket (bitbucket), otro en GitHub (origin) y otro en GitLab (gitlab). Para usar GitHub (origin) como principal debes usar git push -u origin <branch>. Las siguientes veces que hagas git push se enviarán a GitHub sin tener que especificarlo, pero para los otros dos sí tendrías que hacerlo.
+
+Por ejemplo: git push bitbucket <branch> o git push gitlab <branch>. Es igual si tienes un solo repositorio y quieres evitar estar escribiendo git push origin <branch> puedes utilizar esta opción y solo hacer git push las siguientes veces.
