@@ -34,3 +34,9 @@ git remote show
 --luego poner el nombre de la rama
 git remote show origin
 
+
+##con usuario y pass
+git remote set-url origin https://name:password@github.org/repo.git
+
+## el caso de no querer indicar un usuario y una contraseña simplemente se puede sacar esos datos de la URL, como se muestra a continuación.
+git remote set-url origin https://github.org/repo.git
