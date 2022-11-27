@@ -26,3 +26,11 @@ Por ejemplo: git push bitbucket <branch> o git push gitlab <branch>. Es igual si
 
 --error de repositorios con historias diferentes, mal clonado
 git pull origin master --allow-unrelated-histories
+
+--ver repositorio remoto
+git remote
+or 
+git remote show
+--luego poner el nombre de la rama
+git remote show origin
+
