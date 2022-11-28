@@ -40,3 +40,9 @@ git remote set-url origin https://name:password@github.org/repo.git
 
 ## el caso de no querer indicar un usuario y una contraseña simplemente se puede sacar esos datos de la URL, como se muestra a continuación.
 git remote set-url origin https://github.org/repo.git
+
+
+##clonar repositorio pero una rama en concreto
+git clone --branch <branchname> <remote-repo-url>
+o
+git clone -b <branchname> <remote-repo-url>
