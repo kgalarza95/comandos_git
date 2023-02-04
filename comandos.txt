@@ -7,6 +7,13 @@ git branch -M main
 git remote add origin https://github.com/kgalarza95/comandos_git.git
 git push -u origin main
 
+##para forzar el push
+git init
+git add README.md
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/userName/repoName.git
+git push --force origin master
 
 
 #or push an existing repository from the command line
