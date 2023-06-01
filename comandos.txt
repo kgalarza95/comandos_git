@@ -53,3 +53,13 @@ git remote set-url origin https://github.org/repo.git
 git clone --branch <branchname> <remote-repo-url>
 o
 git clone -b <branchname> <remote-repo-url>
+
+
+
+##descartar cambios locales y solo traer cambios remotos
+git reset --hard origin-remoto/mirama
+
+##subir cambios a un segundo repo remoto
+git push nombre-remote mirama
+
+
