@@ -63,3 +63,7 @@ git reset --hard origin-remoto/mirama
 git push nombre-remote mirama
 
 
+## ver ramas remotas
+ git branch -r
+
+
