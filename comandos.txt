@@ -70,3 +70,7 @@ git push nombre-remote mirama
 ##cambiar de rama forzadamente
 git checkout -f nom_rama
 
+##eliminar rama
+git branch -D nom_rama
+
+
