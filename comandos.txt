@@ -80,3 +80,10 @@ git stash
 git stash pop
 
 
+##subir cambios al remoto
+git push -f orgin kgalarza:kgalarza    (mi rama:rama remota)
+#git stash list ??
+
+##descargar los cambiso de la rama remota
+git fetch origin mi_rama
+git reset --hard origin/main
