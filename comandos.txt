@@ -73,4 +73,10 @@ git checkout -f nom_rama
 ##eliminar rama
 git branch -D nom_rama
 
+##guardar cambios en pila para crear una nueva rama y cabiarme a ella
+git stash 
+#2 git branch nueva_ramaa
+#3 git chekcout nueva rama
+git stash pop
+
 
