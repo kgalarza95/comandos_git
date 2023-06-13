@@ -87,3 +87,7 @@ git push -f orgin kgalarza:kgalarza    (mi rama:rama remota)
 ##descargar los cambiso de la rama remota
 git fetch origin mi_rama
 git reset --hard origin/main
+
+
+##eliminar una rama  (-d es para eliminar, -D eliminar ignorando los cambios)
+git branch -D nom_rama
