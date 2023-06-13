@@ -91,3 +91,6 @@ git reset --hard origin/main
 
 ##eliminar una rama  (-d es para eliminar, -D eliminar ignorando los cambios)
 git branch -D nom_rama
+
+##crear nueva rama y cambiarse a ella directo (-b    branch)
+git checkout -b nom_new_rama
