@@ -55,6 +55,17 @@ o
 git clone -b <branchname> <remote-repo-url>
 
 
+##########################################################
+GIT PUSH Y FETCH
+git pull: Este comando realiza dos operaciones en una sola ejecución. Primero, realiza un git fetch para obtener los cambios del repositorio remoto y luego automáticamente realiza un git merge para fusionar esos cambios en la rama actual del repositorio local. Es decir, git pull obtiene los cambios y los aplica directamente en la rama activa.
+
+En resumen, git pull descarga los cambios remotos y los fusiona automáticamente en la rama local activa.
+
+git fetch: Este comando obtiene los cambios más recientes del repositorio remoto, pero no los aplica automáticamente en el repositorio local. En cambio, actualiza las referencias locales (como las ramas remotas) y descarga los commits y objetos necesarios para tener una copia local actualizada del repositorio remoto.
+
+En resumen, git fetch descarga los cambios remotos y actualiza las referencias locales, pero no fusiona automáticamente los cambios en la rama local activa.
+##########################################################
+
 
 ##descartar cambios locales y solo traer cambios remotos
 git reset --hard origin-remoto/mirama
