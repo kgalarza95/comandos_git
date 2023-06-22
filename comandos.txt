@@ -107,6 +107,9 @@ git branch -D nom_rama
 git checkout -b nom_new_rama
 
 
+##cambiar nombre a repo remoto
+git remote rename orgin origin
+
 
 ############################################################################################
 git checkout -b kgalarza  ##crer nueva rama y cabiarse a ella  (checkout b->branch)
