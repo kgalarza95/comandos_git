@@ -121,8 +121,10 @@ git reset ---hard origin/main  ## (repo-remoto/rama-remota) Este comando restabl
 git merge squash kagalarza     ##Este comando fusiona (merge) la rama kgalarza en la rama actual. La opción squash indica que los cambios de la rama kgalarza se fusionarán en un solo commit, lo que ayuda a mantener un historial de commits más limpio y coherente.
 
 git push -f origin main:kglarza   ##enviar mis cambios a un repo remoto "origin" de mi rama "main" y crear o actualizar "forzadamente" la rama "kgalarza"
+git push <nombre-remoto> <nombre-rama-local>:<nombre-rama-remota>
 
 git branch -D ramaDelete          ##elimina la rama auqnue hayan cambios sin funcionar
+
 
 ############################################################################################
 
